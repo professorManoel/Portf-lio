@@ -103,15 +103,43 @@ header #logotipo {
 	top: 20px;
 }
 #menu {
-	margin: 26px 0;
+	margin: 12px 0;
 }
 #menu li {
 	display: inline-block;
 	font-family: "OpenSans";
+}
+#menu li.search{
+	width: 182px;
+}
+#menu li.search input{
+	background-color: #5c2d90 ;
+	color: #fff;
+	border: none;
+	height: 30px;
+	line-height: 30px;
+	padding-left: 8px;
+}
+#menu li.search ::-webkit-input-placeholder{
+	color: #fff;
+}
+#menu li.search button {
+	background: none;
+	border: none;
+	position: absolute;
+	right: 3px ;
+	top: 7px;
+}
+#menu li.search button i {
+	font-size: 14px;
+	color: rgba(255,255,255,.5);
 }
 #menu li a {
 	color: #FFF;
 	font-size: 16px;
 	padding: 10px 25px;
 	font-weight: bold;
+}
+#menu li.search .input-group{
+	top: 8px;
 }
